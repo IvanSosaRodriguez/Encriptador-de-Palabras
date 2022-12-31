@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="Style.css">
     <title>Encriptador de palabras</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -13,23 +14,29 @@
         
         <div class="contenedor">
             <section class="inputs" >
-                <textarea rows="15px" cols="48px"  required placeholder="Ingrese el texto aqui"></textarea>
+                <textarea  required placeholder="Ingrese el texto aqui"></textarea>
                 <div class="caja-botones">
-                    <p class="letrasminusculas">Solo letras m inusculas y sin acentos</p>
+                    <p class="letrasminusculas">Solo letras minusculas y sin acentos</p>
                     <div class="encriptar">Encriptar</div>
                     <div class="desencriptar">Desencriptar</div>
                 </div>
             </section>
             <section class="resultado">
-                <p>aqui tiene que ir el resultado del texto cifrado</p>
+                
+                <div class="esconder">
+                    <img class="chico" src="./images/Muñeco.png" alt="muneco sentado">
+                    <p class="no-encontrado">Ningun mensaje encontrado</p>
+                    <p class="descripcion-mensaje">Ingresa el texto que quieres encriptar o desencriptar</p>
+                </div>
+                <!-- <textarea  required placeholder="salida de texto"></textarea> -->
+
             </section>
             
         </div>
        
-
     </main>
-
     <footer>
-        <p>aqui tiene que ir la informacion de contacto y quien realizo la paguina</p>
+        <p>Paguina creada por: </p>
+        <p>Ivan de J Sosa R</p>
     </footer>
 </body>
