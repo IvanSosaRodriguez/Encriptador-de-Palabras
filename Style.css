@@ -1,45 +1,51 @@
-header{
-    background-color: aliceblue;
-    padding: 20px 0;
-
-}
-
 .logo{
+    position:relative;
     top: 40px;
-    right: 40px;
 }
 
 main{
-    background-color: antiquewhite;
+    background-color:aliceblue;
 }
 
 .contenedor{
+    display: flex;
     background-color:rgb(196, 255, 199);
     width: 940px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .inputs{
-    display: inline-block;
     background-color: darkcyan;
     width: 60%;
     border-radius: 10px;
-    margin: 1%;
+    margin: 50px auto;
     padding: 2%;
 }
 
+textarea{
+    border-radius: 10px;
+    background-color: cornsilk;
+    font-size: 20px;
+}
+
 .resultado{
-    display: inline-block;
+    align-self:flex-end;
     background-color: cadetblue;
     width: 25%;
     border-radius: 10px;
     margin: 1%;
-    padding: 2%;
+    padding: 300px 2% 300px 2%;
 }
 
-ul{
-    width: 940px;
-    margin: 20px auto;
+.letrasminusculas{
+    text-align: initial;
+    margin: 10px;
+}
+
+.caja-botones{
+    background-color: cadetblue;
+    margin: 40px 0 0;
 }
 
 .encriptar{
@@ -47,15 +53,13 @@ ul{
     display: inline-block;
     border: 2px solid rgb(0, 0, 255);
     border-radius: 10px;
-    padding: 10px;
-    margin: 0 0 0 23%;
-
+    padding: 10px 50px 10px 50px;
 }
 
 .desencriptar{
     background-color: deepskyblue;
     display: inline-block;
-    padding: 10px;
+    padding: 10px 50px 10px 50px;
     border: 2px solid rgb(0, 117, 156);
     border-radius: 10px;
 }
