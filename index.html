@@ -7,36 +7,31 @@
     <title>Encriptador de palabras</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
     <main>
         <img class="logo" src="images/Logo.png" alt="logo">
-        
         <div class="contenedor">
             <section class="inputs" >
-                <textarea  required placeholder="Ingrese el texto aqui"></textarea>
+                <textarea id="input-text" required placeholder="Ingrese el texto aqui"></textarea>
                 <div class="caja-botones">
                     <p class="letrasminusculas">Solo letras minusculas y sin acentos</p>
-                    <div class="encriptar">Encriptar</div>
-                    <div class="desencriptar">Desencriptar</div>
+                    <input id="button-a" class="encriptar"  type="button" value="encriptar" >
+                    <input id="button-b" class="desencriptar" type="button" value="desencriptar">
                 </div>
             </section>
             <section class="resultado">
-                
-                <div class="esconder">
+                <div id="esconder">
                     <img class="chico" src="./images/Muñeco.png" alt="muneco sentado">
                     <p class="no-encontrado">Ningun mensaje encontrado</p>
                     <p class="descripcion-mensaje">Ingresa el texto que quieres encriptar o desencriptar</p>
                 </div>
-                <!-- <textarea  required placeholder="salida de texto"></textarea> -->
-
+                <textarea id="output-text" class="output-text" required placeholder="salida de texto"></textarea>
             </section>
-            
         </div>
-       
     </main>
     <footer>
         <p>Paguina creada por: </p>
         <p>Ivan de J Sosa R</p>
     </footer>
+    <script src="script.js"></script>
 </body>
