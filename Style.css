@@ -43,7 +43,10 @@ textarea{
     display:none;
 }
 
+
 .resultado{
+    display: flex;
+    align-items: center;
     flex-grow: 1;
     background-color:#ffffff;
     width:235px;
@@ -53,6 +56,9 @@ textarea{
     box-shadow: 5px 5px 20px #343a40;
 }
 
+#esconder{
+    width: -webkit-fill-available;
+}
 .chico{
     width:-webkit-fill-available;
     max-width: 400px;
@@ -77,15 +83,17 @@ textarea{
 }
 
 .caja-botones{
-    margin: 40px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0 0;
 }
 
 .encriptar{
     background-color: #0A3871;
     border-color: #0A3871;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 20px 80px;
+    border-radius: 20px;
+    padding: 20px 90px;
     color: #ffffff;
 }
 
@@ -99,7 +107,7 @@ textarea{
     color: #0A3871;
     display: inline-block;
     padding: 20px 80px ;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .desencriptar:active{
@@ -125,6 +133,7 @@ footer{
     }
 
     .chico{
-        width: auto;
+        display: none;
     }
+
 }
